@@ -19,8 +19,8 @@ export default (RNCustomTabs) => {
         return RNCustomTabsShim.hasPackagesForUrl(url)
         .then(hasPackage => {
           return hasPackage ?
-          Linking.openURL(url) :
-          RNCustomTabs.openURL(url, options)
+            Linking.openURL(url) :
+            RNCustomTabs.CustomTabs.openURL(url, options)
         })
       },
     },
