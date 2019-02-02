@@ -48,12 +48,12 @@ const url = "https://www.netflix.com" // opens in netflix app
 // const url = "https://example.com" // opens in custom tab
 
 const options = {
-	toolbarColor: navbarColour,
-	enableUrlBarHiding: true,
-	showPageTitle: false,
-	forceCloseOnRedirection: true,
-	animations: RNCustomTabs.ANIMATIONS_FADE,
+  toolbarColor: '#607D8B',
+  enableUrlBarHiding: true,
+  showPageTitle: true,
+  enableDefaultShare: true,
+  animations: ANIMATIONS_FADE,
 }
 
-RNCustomTabs.CustomTabs.openURL(url, options)
+CustomTabs.openURL(url, options)
 ```
