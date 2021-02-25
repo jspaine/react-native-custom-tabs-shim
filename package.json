@@ -1,7 +1,7 @@
 {
   "name": "react-native-custom-tabs-shim",
   "title": "React Native Custom Tabs Shim",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "wrap custom tabs",
   "main": "index.js",
   "scripts": {
