@@ -2,7 +2,7 @@
   "name": "react-native-custom-tabs-shim",
   "title": "React Native Custom Tabs Shim",
   "version": "1.0.1",
-  "description": "",
+  "description": "wrap custom tabs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
