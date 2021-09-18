@@ -23,12 +23,8 @@
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "react": "16.2.0",
-    "react-native": "^0.52.0"
+    "react": "*",
+    "react-native": "*"
   },
-  "devDependencies": {
-    "eslint": "^5.12.1",
-    "react": "16.2.0",
-    "react-native": "^0.52.0"
-  }
+  "devDependencies": {}
 }
